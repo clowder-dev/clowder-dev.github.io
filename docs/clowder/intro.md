@@ -16,5 +16,5 @@ it runs best when dedicated chips, such as GPUs, TPUs, or other accelerators, ar
 * [Architecture](./architecture.mdx)
 * [Core Concepts](./concepts.md)
 * [Requirements](./requirements.md)
-* [Quick Start](./quickstart/intro.md)
+* [Quick Start](/docs/quickstart/)
 * [Fine-Tuning](./fine-tuning.md)

@@ -128,7 +128,7 @@ const config = {
               },
               {
                 label: 'LinkedIn',
-                href: 'https://www.linkedin.com/company/aifoundry-org',
+                href: 'https://www.linkedin.com/company/clowder',
               },
               {
                 label: 'X',
