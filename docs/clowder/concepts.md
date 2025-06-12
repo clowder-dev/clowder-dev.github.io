@@ -1,6 +1,5 @@
 ---
 id: clowder-concepts
-slug: /docs/clowder/concepts
 title: Clowder Core Concepts
 sidebar_position: 3
 ---
@@ -57,12 +56,12 @@ For example:
 
 An aimage is the basic <u>potentially</u> deployable artifact.
 
-![AImage](./image/aimage.png)
+![AImage](/img/aimage.png)
 
 ## Deployment
 A deployment is a running instance of an aimage. It is run by deploying it in line with its configuration, and is capable of responding to queries, i.e. performing inference. Each aimage can be deployed 0, 1 or many times. As long as it is deployed, it can respond to queries.
 
-![Deployment](./image/deployment.png)
+![Deployment](/img/deployment.png)
 
 ## Methods
 Methods are functions, or queries, against a specific deployment, using API calls, for example, calls to a chat completion API. Methods are applied against _deployments_, not _models_. It is the deployed aimage that contains configuration controlling how methods are executed against a running model.
@@ -72,7 +71,7 @@ Note that the lower-level can be thought of as a special case of the higher-leve
 From Clowder's perspective, every method call is simply an API call against a deployment, i.e.
 a deployed AImage.
 
-![Methods](./image/methods.png)
+![Methods](/img/methods.png)
 
 ## Middleware
 Middleware is specific software that sits between the user's inference API call and the model. It is transparent
@@ -93,19 +92,19 @@ A registry is any location that does all of:
 1. Stores one or more AImage or its components: manifest, configuration, model layers, EP layers.
 1. Exposes access to the AImage and/or its components via a well-known API.
 
-![Registry](./image/registry.png)
+![Registry](/img/registry.png)
 
 ## Distribution
 Distribution is the process of sending components of an AImage - model, EP layers, configuration and manifest - from one location to another, where at least one of the locations is a registry.
 
-![Distribution](./image/distribution.png)
+![Distribution](/img/distribution.png)
 
 ## Node
 A node is an independent device running an operating system, whether bare metal, virtualized or containerized, that can run software.
 
 Clowder recognizes different node roles. An actual node can fulfill any combination of one, two or all of the roles simultaneously. In the simplest deployment, a single node performs all of the roles. The choice of how to colocate them is a deployment-time choice.
 
-Details of how the nodes interact is available in [Architecture](./architecture.md).
+Details of how the nodes interact is available in [Architecture](./architecture.mdx).
 
 ### Worker
 Stateless node where actual inference, fine-tuning and training are run. Normally this is a node with specialized hardware for performing model calculations, but it does not have to be.
@@ -121,7 +120,7 @@ Node that provides operational API services to users, manages all other node typ
 ### Load Balancer
 Node that provides load-balanced runtime API services to users. Whether doing simple inference or querying applications, these nodes provide the endpoint.
 
-![Nodes](./image/nodes.png)
+![Nodes](/img/nodes.png)
 
 ## Runtime Engine
 

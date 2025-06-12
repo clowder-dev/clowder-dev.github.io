@@ -1,6 +1,5 @@
 ---
 id: clowder-requirements
-slug: /docs/clowder/requirements
 title: Hardware Requirements
 sidebar_position: 5
 ---

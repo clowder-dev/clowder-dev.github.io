@@ -1,6 +1,5 @@
 ---
 id: clowder-storage
-slug: /docs/clowder/storage
 title: Aimage and Model Storage
 sidebar_position: 7
 ---

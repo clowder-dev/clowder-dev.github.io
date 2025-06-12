@@ -1,6 +1,5 @@
 ---
 id: clowder-fin-tuning
-slug: /docs/clowder/fine-tuning
 title: Clowder Fine-Tuning
 sidebar_position: 4
 ---
@@ -30,17 +29,17 @@ There are two main ways to use EP layers:
 ### Scenario 1: Changed base model
 Fine-tuning modifies the actual weights of the base model, leading to a new model.
 
-![Scenario 1](./image/scenario1.png)
+![Scenario 1](/img/scenario1.png)
 
 ### Scenario 2: Load-time modify weights
 Fine-tuning generates an EP Layer. The base model is unchanged, and both the base model and EP Layer are stored separately. When loading the model into memory for inference, information in the EP Layer is used to modify the weights in memory in the base model.
     
-![Scenario 2](./image/scenario2.png)
+![Scenario 2](/img/scenario2.png)
 
 ### Scenario 3: Inference-time modify operations
 Fine-tuning generates an EP Layer. The base model is unchanged, and both the base model and EP Layer are stored separately. When loading the model into memory for inference, the operations at affected layers are modified, such that after weights are applied, the output information is further modified by the EP Layer information, and then passed on to the next model layer.
 
-![Scenario 3](./image/scenario3.png)
+![Scenario 3](/img/scenario3.png)
 
 The actual net result of inference in all three methods is the same. The effective differences are as follows:
 

@@ -1,6 +1,6 @@
 ---
 id: what-is-clowder
-slug: /docs/clowder
+slug: /clowder
 title: What Is Clowder?
 sidebar_position: 1
 ---
@@ -13,7 +13,7 @@ deploying, operating and managing AI models at scale.
 Clowder can be run on _any_ physical or virtual machine. Like any AI platform,
 it runs best when dedicated chips, such as GPUs, TPUs, or other accelerators, are available.
 
-* [Architecture](./architecture.md)
+* [Architecture](./architecture.mdx)
 * [Core Concepts](./concepts.md)
 * [Requirements](./requirements.md)
 * [Quick Start](./quickstart/intro.md)

@@ -1,6 +1,5 @@
 ---
 id: clowder-distribution
-slug: /docs/clowder/distribution
 title: Aimage and Model Distribution
 sidebar_position: 6
 ---
@@ -19,7 +18,7 @@ Clowder understands distribution to and from the following protocols:
 * ollama - similar to but not identical to OCI
 * Huggingface - a custom format
 
-![Distribution formats](image/distribution_formats.png)
+![Distribution formats](/img/distribution_formats.png)
 
 The rest of this document describes how Clowder handles distribution for each of these protocols, and especially how it stores the data locally.
 
