@@ -1,5 +1,5 @@
 ---
-id: clowder-fin-tuning
+id: clowder-fine-tuning
 title: Clowder Fine-Tuning
 sidebar_position: 4
 ---
