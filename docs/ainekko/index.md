@@ -1,10 +1,8 @@
 ---
-id: what-is-ainekko
-title: What Is Ainekko?
+id: who-is-ainekko
+title: Who Is Ainekko?
 sidebar_position: 1
 ---
-
-What is Ainekko?
 
 Ainekko is a leading AI hardware and software provider.
 

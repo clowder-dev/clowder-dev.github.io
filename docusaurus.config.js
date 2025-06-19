@@ -82,13 +82,13 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'structureSidebar',
             position: 'left',
-            label: 'What is Clowder?',
+            label: 'Clowder Docs',
           },
           {
             type: 'docSidebar',
             sidebarId: 'guideSidebar',
             position: 'left',
-            label: 'What is Ainekko?',
+            label: 'Who is Ainekko?',
           },
           {
             type: 'docSidebar',
@@ -110,8 +110,8 @@ const config = {
           {
             title: 'Docs',
             items: [
-              { label: 'What is Clowder?', to: '/docs/clowder' },
-              { label: 'What is Ainekko?', to: '/docs/ainekko' },
+              { label: 'Clowder Docs', to: '/docs/clowder' },
+              { label: 'Who is Ainekko?', to: '/docs/ainekko' },
               { label: 'Community', to: '/docs/community' },
             ],
           },
